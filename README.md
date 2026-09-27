@@ -1,5 +1,7 @@
 # 訓練日誌 v1.0.0
 
+後續修改與驗證狀態請見 [版本修改紀錄](CHANGELOG.md)。每次更新專案檔案都須同步記錄，工作規則見 [AGENTS.md](AGENTS.md)。
+
 深色、手機優先的個人訓練日誌。網站程式放 GitHub Pages；你填寫的訓練與身體資料只保存在目前裝置的瀏覽器，不會傳到 GitHub。不需要登入、不需要 iCloud。
 
 ## 放到 GitHub Pages
