@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='training-journal-v1.0.0';
+const CACHE='training-journal-v1.0.1';
 const ROOT=new URL('./',self.location).href;
 const ASSETS=['./','index.html','styles.css','app.js','vendor/xlsx.full.min.js','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS.map(p=>new URL(p,ROOT).href)))));
